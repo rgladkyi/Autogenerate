@@ -1,0 +1,13 @@
+rem @echo off
+
+
+
+set AUTO_GEN_SCRIPT_PATH=%1
+set AUTO_GEN_SCRIPT_GENERATOR=%2
+
+
+
+call %AUTO_GEN_SCRIPT_GENERATOR%
+ %AUTO_GEN_SCRIPT_PATH%
+
+
